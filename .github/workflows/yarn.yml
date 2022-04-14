@@ -1,2 +1,0 @@
-- name: Yarn Publish
-  uses: luvies/action-yarn-publish@v0.1.1
