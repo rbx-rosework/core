@@ -21,8 +21,8 @@
     "rosework"
   ],
   "scripts": {
-    "build": "rbxtsc",
-    "watch": "rbxtsc -w",
+    "build": "npx rbxtsc",
+    "watch": "npx rbxtsc -w",
     "prepublishOnly": "yarn run build"
   },
   "types": "out/index.d.ts",
