@@ -1,10 +1,13 @@
 {
   "name": "@rosework/core",
-  "version": "0.1.4",
+  "version": "1.0.0-beta-1.0",
   "description": "Rosework is a flexible game framework written and used in TypeScript.",
   "repository": "https://github.com/rbx-rosework/core",
+  "homepage": "https://rbx-rosework.github.io/docs/",
   "author": "Roseau Corporation <roseau.business@gmail.com>",
   "license": "GPL-3.0-only",
+  "main": "out/init.lua",
+  "typings": "out/index.d.ts",
   "keywords": [
     "roblox",
     "framework",
@@ -38,5 +41,8 @@
     "eslint": "^8.13.0",
     "eslint-plugin-roblox-ts": "^0.0.32",
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@rbxts/services": "^1.2.0"
   }
 }
