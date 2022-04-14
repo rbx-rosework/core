@@ -1,5 +1,5 @@
 // Rosework
-// The Modular, Flexible Framework for Roblox
+// The modular, flexible game framework for Roblox
 // ro_seau
 
 
