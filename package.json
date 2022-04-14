@@ -1,6 +1,6 @@
 {
   "name": "@rosework/core",
-  "version": "1.0.0-beta-1.0",
+  "version": "1.0.0-alpha-1.0",
   "description": "Rosework is a flexible game framework written and used in TypeScript.",
   "repository": "https://github.com/rbx-rosework/core",
   "homepage": "https://rbx-rosework.github.io/docs/",
