@@ -10,4 +10,4 @@ import { RoseworkManager } from "./RoseworkManager"
 // Exports
 export { Entity, EntityMetadata }
 
-export default RoseworkManager
+export { RoseworkManager }
