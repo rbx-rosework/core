@@ -20,6 +20,7 @@
 		"plugin:roblox-ts/recommended"
 	],
 	"rules": {
-		"roblox-ts/lua-truthiness": "off"
+		"roblox-ts/lua-truthiness": "off",
+		"eqeqeq": "off"
 	}
 }
