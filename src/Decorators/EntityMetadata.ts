@@ -8,5 +8,5 @@ import { EntityMetadata } from "../Entity"
 
 // Functions
 export function EntityMetadataDecorator() {
-    return <U extends EntityMetadata>(constructor: U) => {constructor};
+    return <U extends EntityMetadata>(_constructor: U) => {_constructor};
 }
