@@ -4,13 +4,13 @@
 
 
 // Imports
-import SubEntity from "./SubEntity"
+import { SubEntity } from "./SubEntity"
 
 
-export default class Entity {
-    public SubEntities: SubEntity[] = []
 
-    public constructor() {
+export class Entity {
+    readonly SubEntities: SubEntity[] = []
 
+    public constructor(EntityModule: ModuleScript) {
     }
 }

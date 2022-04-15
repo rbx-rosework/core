@@ -3,6 +3,6 @@
 // ro_seau
 
 
-export default abstract class SubEntity {
+export abstract class SubEntity {
 
 }
