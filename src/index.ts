@@ -4,12 +4,12 @@
 
 
 // Imports
-import { Entity, EntityMetadata } from "./Entity"
+import { Entity, EntityMetadata, SubEntitiesMetadata } from "./Entity"
 import { SubEntity, SubEntityType, SubEntityInfo } from "./Entity/SubEntity"
 import { RoseworkManager } from "./RoseworkManager"
 
 // Exports
-export { Entity, EntityMetadata }
+export { Entity, EntityMetadata, SubEntitiesMetadata }
 
 export { SubEntity, SubEntityType, SubEntityInfo }
 
