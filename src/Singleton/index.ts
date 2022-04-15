@@ -6,6 +6,7 @@
 // Variables
 const CreatedSingletons: Record<string,Singleton> = {}
 
+// Classes
 export abstract class Singleton {
     constructor() {
         const Name: string = (this as unknown as { constructor: {name: string}}).constructor.name

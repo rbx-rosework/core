@@ -9,6 +9,7 @@ import { Entity } from "./Entity"
 import { SubEntityType } from "./Entity/SubEntity"
 import { Singleton } from "./Singleton"
 
+// Classes
 export class RoseworkManager extends Singleton {
 	readonly Entities: Entity[] = []
 	readonly LoadedSubEntities: SubEntityType[] = []

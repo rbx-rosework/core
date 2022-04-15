@@ -13,6 +13,7 @@ export enum SubEntityType {
 	SMS
 }
 
+// Classes
 export abstract class SubEntity {
 
 }

@@ -7,7 +7,7 @@
 import { Entity, EntityMetadata } from "./Entity"
 import { RoseworkManager } from "./RoseworkManager"
 
-
+// Exports
 export { Entity, EntityMetadata }
 
 export default RoseworkManager
