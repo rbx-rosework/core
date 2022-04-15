@@ -4,10 +4,11 @@
 
 
 // Imports
+import { PartialRecord } from "../Utility/PartialRecord"
 import { SubEntity, SubEntityInfo, SubEntityType } from "./SubEntity"
 
 // Types
-export type SubEntitiesMetadata = Record<SubEntityType,SubEntityInfo>
+export type SubEntitiesMetadata = PartialRecord<SubEntityType,SubEntityInfo>
 
 export interface EntityMetadata {
     SubEntities: SubEntitiesMetadata
