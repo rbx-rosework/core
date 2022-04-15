@@ -13,6 +13,11 @@ export enum SubEntityType {
 	SMS
 }
 
+// Types
+export interface SubEntityInfo { // This interface is meant to be abstract
+    
+}
+
 // Classes
 export abstract class SubEntity {
 
