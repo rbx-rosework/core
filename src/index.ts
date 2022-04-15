@@ -4,6 +4,7 @@
 
 
 // Imports
+import { EntityMetadataDecorator } from "./Decorators/EntityMetadata"
 import { Entity, EntityMetadata, SubEntitiesMetadata } from "./Entity"
 import { SubEntity, SubEntityType, SubEntityInfo } from "./Entity/SubEntity"
 import { RoseworkManager } from "./RoseworkManager"
@@ -12,5 +13,7 @@ import { RoseworkManager } from "./RoseworkManager"
 export { Entity, EntityMetadata, SubEntitiesMetadata }
 
 export { SubEntity, SubEntityType, SubEntityInfo }
+
+export { EntityMetadataDecorator as MetadataDecorator }
 
 export { RoseworkManager }
