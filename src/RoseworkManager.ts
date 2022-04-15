@@ -6,17 +6,8 @@
 // Imports
 import { ReplicatedStorage } from "@rbxts/services"
 import { Entity } from "./Entity"
+import { SubEntityType } from "./Entity/SubEntity"
 import { Singleton } from "./Singleton"
-
-// Enums
-export enum SubEntityType {
-	Core,
-	Singleton,
-	Component,
-	Tool,
-	State,
-	SMS
-}
 
 export class RoseworkManager extends Singleton {
 	readonly Entities: Entity[] = []

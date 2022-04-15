@@ -3,6 +3,16 @@
 // ro_seau
 
 
+// Enums
+export enum SubEntityType {
+	Core,
+	Singleton,
+	Component,
+	Tool,
+	State,
+	SMS
+}
+
 export abstract class SubEntity {
 
 }
