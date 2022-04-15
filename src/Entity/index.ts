@@ -8,7 +8,7 @@ import { SubEntity, SubEntityInfo, SubEntityType } from "./SubEntity"
 
 // Types
 export interface EntityMetadata {
-    Subentities: Record<SubEntityType,SubEntityInfo>
+    SubEntities: Record<SubEntityType,SubEntityInfo>
 }
 
 // Classes
