@@ -14,6 +14,6 @@ export { Entity, EntityMetadata, SubEntitiesMetadata }
 
 export { SubEntity, SubEntityType, SubEntityInfo }
 
-export { EntityMetadataDecorator as MetadataDecorator }
+export { EntityMetadataDecorator as Metadata }
 
 export { RoseworkManager }
